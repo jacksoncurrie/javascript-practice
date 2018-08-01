@@ -1,0 +1,38 @@
+body, input, h1, p{
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+button {
+    padding: 5px 30px;
+    border: none;
+    color: white;
+    background: gray;
+    margin: 20px;
+    cursor: pointer;
+}
+
+button:active {
+    background: darkgrey;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+input:focus, button:focus {
+    outline: none;
+}

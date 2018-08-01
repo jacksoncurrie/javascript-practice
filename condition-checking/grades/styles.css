@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+button {
+    padding: 5px 30px;
+    border: none;
+    color: white;
+    background: gray;
+    cursor: pointer;
+}
+
+button:active {
+    background: darkgrey;
+}
+
+
+input:focus, button:focus {
+    outline: none;
+}

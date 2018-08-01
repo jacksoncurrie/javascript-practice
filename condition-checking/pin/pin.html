@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="pin.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>PIN</title>
+</head>
+<body>
+    
+    <h1>Set PIN</h1>
+
+    <input name="pin1"
+           id="pin1"
+           type="number"
+           placeholder="Enter PIN"><br>
+    
+    <input name="pin2"
+           id="pin2"
+           type="number"
+           placeholder="Re-enter PIN"><br>
+    
+    <button type="button" onclick="checkPin( document.getElementById( 'pin1' ).value, document.getElementById( 'pin2' ).value )">Check</button>
+
+    <p id="result"></p>
+
+</body>
+</html>

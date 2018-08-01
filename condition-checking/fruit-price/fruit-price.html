@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="fruit-price.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Price of Fruit</title>
+</head>
+<body>
+    
+    <h1>What is the Price of Fruit</h1>
+
+    <p>
+        Check price of some fruit: Bannanas, Apples, Oranges, or Kiwifruit.
+    </p>
+    <input name="fruit"
+           id="fruit"
+           type="text"
+           placeholder="Fruit"><br>
+    
+    <button type="button" onclick="checkFruit( document.getElementById( 'fruit' ).value )">Check</button>
+
+    <p id="result"></p>
+
+</body>
+</html>
