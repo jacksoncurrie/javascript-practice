@@ -1,2 +1,2 @@
-# javascript-practice
-Practice Javascript Projects
+# Javascript Practice
+61 basic Javascrit tasks.
