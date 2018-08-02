@@ -1,2 +1,2 @@
 # Javascript Practice
-61 basic Javascrit tasks.
+61 basic Javascript tasks.
